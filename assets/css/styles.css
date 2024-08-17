@@ -1,0 +1,84 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+.media-row {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    padding: 10px 0;
+}
+
+.media-item {
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 8px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.media-item img {
+    width: 100%;
+    height: auto;
+    max-height: 200px; /* Adjust as needed */
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+video, audio {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.hidden {
+    display: none;
+}
+
+.btn-info {
+    background-color: #17a2b8;
+    border: none;
+    color: white;
+    padding: 10px;
+    font-size: 18px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    text-align: left;
+}
+
+.btn-info:hover {
+    background-color: #138496;
+}
+
+.btn-info:focus {
+    box-shadow: 0 0 0 0.2rem rgba(23, 162, 184, 0.5);
+}
+
+.w-100 {
+    width: 100%;
+}
+
+.text-left {
+    text-align: left;
+}
+
+/* Logo styling */
+.logo {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+/* Ensure the dropdown headers are aligned */
+.d-flex {
+    display: flex;
+    align-items: center;
+}
+
+.me-2 {
+    margin-right: 0.5rem;
+}
