@@ -2,7 +2,7 @@
 
 ## Overview
 
-This Media Player Application allows users to select a local folder and play audio and video files directly in their browser. The application features a clean and user-friendly interface with collapsible sections for audio and video files, and interactive media controls, including play/pause, fast forward, and rewind functionalities. It also includes a space for displaying a cover image for audio files and supports time elapsed and time remaining features.
+This Media Player Application allows users to select a local folder and play audio and video files directly in their browser. The application features a clean and user-friendly interface with collapsible sections for audio and video files, and interactive media controls, including play/pause, fast forward, and rewind functionalities.
 
 ## Features
 
