@@ -221,11 +221,11 @@ function createControlButton(label, onClick) {
 function updateTimeDisplay(media, displayElement) {
   const currentTime = formatTime(media.currentTime);
   const duration = formatTime(media.duration);
-  displayElement.textContent = `${currentTime} / ${duration}`;
+  displayElement.textContent = ${currentTime} / ${duration};
 }
 
 function formatTime(seconds) {
   const minutes = Math.floor(seconds / 60);
   const secs = Math.floor(seconds % 60);
-  return `${String(minutes).padStart(2, "0")}:${String(secs).padStart(2, "0")}`;
+  return ${String(minutes).padStart(2, "0")}:${String(secs).padStart(2, "0")};
 }
