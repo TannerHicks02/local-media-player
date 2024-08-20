@@ -9,28 +9,37 @@
     <link rel="stylesheet" href="./assets/css/styles.css">
 </head>
 <body class="p-3 mb-2 bg-dark text-white text-center">
-    <div class="container">
-        <h1>Media Player</h1>
-        <button id="chooseFolder" class="btn btn-secondary mb-3">Choose Folder</button>
-        <div id="mediaContainer">
-            <div class="mb-3">
-                <h2 id="audioHeader" class="hidden">
-                    <button class="btn btn-secondary w-100 text-left" type="button" data-bs-toggle="collapse" data-bs-target="#audioCollapse" aria-expanded="false" aria-controls="audioCollapse">
-                        Audio Files <img src="./assets/images/3319145-200.png" alt="Audio Logo" class="logo me-2">
-                    </button>
-                </h2>
-                <div id="audioCollapse" class="collapse">
-                    <div id="audioRow" class="media-row"></div>
+    <div class="d-flex">
+        
+    <div>
+            <!-- Side Bar -->
+            <ul id="sidebar" class="list-group list-group-flush flex-shrink-0" style="width: 250px;"></ul>
+    </div>
+
+        <!-- Main Page -->
+        <div class="container flex-grow-1">
+            <h1>Media Player</h1>
+            <button id="chooseFolder" class="btn btn-secondary mb-3">Choose Folder</button>
+            <div id="mediaContainer">
+                <div class="mb-3">
+                    <h2 id="audioHeader" class="hidden">
+                        <button class="btn btn-secondary w-100 text-left" type="button" data-bs-toggle="collapse" data-bs-target="#audioCollapse" aria-expanded="false" aria-controls="audioCollapse">
+                            Audio Files <img src="./assets/images/3319145-200.png" alt="Audio Logo" class="logo me-2">
+                        </button>
+                    </h2>
+                    <div id="audioCollapse" class="collapse">
+                        <div id="audioRow" class="media-row"></div>
+                    </div>
                 </div>
-            </div>
-            <div>
-                <h2 id="videoHeader" class="hidden">
-                    <button class="btn btn-secondary w-100 text-left" type="button" data-bs-toggle="collapse" data-bs-target="#videoCollapse" aria-expanded="false" aria-controls="videoCollapse">
-                        Video Files <img src="./assets/images/3319145-200.png" alt="Video Logo" class="logo me-2">
-                    </button>
-                </h2>
-                <div id="videoCollapse" class="collapse">
-                    <div id="videoRow" class="media-row"></div>
+                <div>
+                    <h2 id="videoHeader" class="hidden">
+                        <button class="btn btn-secondary w-100 text-left" type="button" data-bs-toggle="collapse" data-bs-target="#videoCollapse" aria-expanded="false" aria-controls="videoCollapse">
+                            Video Files <img src="./assets/images/3319145-200.png" alt="Video Logo" class="logo me-2">
+                        </button>
+                    </h2>
+                    <div id="videoCollapse" class="collapse">
+                        <div id="videoRow" class="media-row"></div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -40,3 +49,5 @@
     <script src="./assets/js/script.js"></script>
 </body>
 </html>
+
+<script>
