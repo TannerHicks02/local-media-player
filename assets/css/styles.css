@@ -1,6 +1,42 @@
+/* General Body Styling */
 body {
-    font-family: Arial, sans-serif;
-    padding: 20px;
+    background-color: #121212;
+    color: #ffffff;
+}
+
+/* Sidebar Styling */
+#sidebar {
+    padding: 10px;
+}
+
+#sidebar .list-group-item {
+    background-color: #1c1c1c;
+    color: #ffffff;
+    border: none;
+    padding: 15px 10px;
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+
+#sidebar .list-group-item:hover,
+#sidebar .list-group-item.active {
+    background-color: #343a40;
+    color: #ffffff;
+}
+
+/* Media Player Header Styling */
+h1 {
+    margin-bottom: 20px;
+}
+
+h2 button {
+    background-color: #343a40;
+    border: none;
+    color: #ffffff;
+}
+
+h2 button:hover {
+    background-color: #495057;
 }
 
 .media-row {
@@ -23,12 +59,14 @@ body {
 .media-item img {
     width: 100%;
     height: auto;
-    max-height: 200px; /* Adjust as needed */
+    max-height: 200px;
+    /* Adjust as needed */
     border-radius: 8px;
     margin-bottom: 10px;
 }
 
-video, audio {
+video,
+audio {
     width: 100%;
     height: auto;
     display: block;
