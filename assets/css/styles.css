@@ -59,12 +59,14 @@ h2 button:hover {
 .media-item img {
     width: 100%;
     height: auto;
-    max-height: 200px; /* Adjust as needed */
+    max-height: 200px;
+    /* Adjust as needed */
     border-radius: 8px;
     margin-bottom: 10px;
 }
 
-video, audio {
+video,
+audio {
     width: 100%;
     height: auto;
     display: block;
